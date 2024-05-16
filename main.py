@@ -21,7 +21,6 @@ def put_temperature_data(base_url):
     
     res = requests.put(url, json=temperature_data)
     
-    print(res)
     print(url)
     print(res.json())
 
